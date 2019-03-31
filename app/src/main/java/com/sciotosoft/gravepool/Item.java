@@ -4,10 +4,7 @@ enum ItemType{
 }
 public class Item {
     private int itemID;
-    private int itemWeightlbs;
-    private int itemWidthCM;
-    private int itemLengthCM;
-    private int itemHeightCM;
+    private int itemWeightOz;
     String itemName;
     String itemDescription;
     Boolean flammable;

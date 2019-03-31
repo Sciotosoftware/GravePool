@@ -3,12 +3,15 @@ package com.sciotosoft.gravepool;
 import java.util.ArrayList;
 import java.util.List;
 enum creatureAttribute{
-    Intangible,
-    Invisible,
-    Hulking,
-    Swimming,
-    Flying,
-    Burrowing,
+    Spectre
+}
+enum creatureMobilityMode{
+    Walk,
+    Run,
+    Swim,
+    Fly,
+    Burrow,
+    Crawl
 }
 public class Creature {
     private int creatureID;

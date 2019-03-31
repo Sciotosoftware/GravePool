@@ -1,7 +1,7 @@
 package com.sciotosoft.gravepool;
 
 public class TestCreature {
-    public static Creature instantiateCreature(){
+    public static Creature creatureConstructorTest(){
         Creature creature = new Creature();
         System.out.println("TestCreature.instantiateCreature"
                 + "\n" + creature.getCreatureName
